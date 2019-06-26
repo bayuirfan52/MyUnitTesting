@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_padding"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/length"
+        android:layout_marginBottom="@dimen/activity_vertivcal_margin"
+        />
+
+    <EditText
+        android:id="@+id/edt_length"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertivcal_margin"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        tools:ignore="Autofill,LabelFor"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/width"
+        android:layout_marginBottom="@dimen/activity_vertivcal_margin"
+        />
+
+    <EditText
+        android:id="@+id/edt_width"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertivcal_margin"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        tools:ignore="Autofill,LabelFor"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/height"
+        android:layout_marginBottom="@dimen/activity_vertivcal_margin"
+        />
+
+    <EditText
+        android:id="@+id/edt_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertivcal_margin"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        tools:ignore="Autofill,LabelFor"
+        />
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertivcal_margin"
+        android:text="@string/calculate"
+        />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertivcal_margin"
+        android:gravity="center"
+        android:text="@string/result"
+        android:textSize="@dimen/result_text_size"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

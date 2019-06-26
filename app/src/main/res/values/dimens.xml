@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_padding">10dp</dimen>
+    <dimen name="activity_vertivcal_margin">16dp</dimen>
+    <dimen name="result_text_size">24sp</dimen>
+</resources>
